@@ -20,7 +20,5 @@ models:
                 - unique
                 - not_null
 
-    - name: Analytics
-             preqze:
-    +materialized: view
+
 
