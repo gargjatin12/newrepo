@@ -1,6 +1,4 @@
-
-{{ config(materialized='table') }}
-
+{{ config(materialized='view') }}
 
 WITH CTE AS
 (
