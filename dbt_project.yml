@@ -43,3 +43,6 @@ models:
     prepzee:
        +materialized: view
 
+    my_exp:
+        +materialized: table
+
